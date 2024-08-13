@@ -1,0 +1,96 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color:#3B3B3B;
+}
+.increase,.start{
+    background-color: green;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.decrease,.pause{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    border: 1px solid white;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.reset,.restart{
+    background-color: #3B3B3B;
+    color: white;
+    border: none;
+    height: 39px;
+    width: 70px;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.navbar{
+    background-color: black;
+    text-align: center;
+    width: fit-content;
+    margin: 20px auto 0;
+}
+.nav-bar-link{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 3px; 
+}
+.navbar li {
+    display: inline-block;
+    padding: 10px 5px;
+    list-style-type: none;
+}
+.nav-bar-link:hover {
+    background-color: #3B3B3B;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.navbar .active {
+    background-color: #3B3B3B;
+    color: white;
+    border-radius: 4px;
+}
+.onepage{
+    margin: 80px;
+    padding: 20px;
+}
+.stopwatch{
+    color: white;
+    margin: 80px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.time{
+    color: white;
+    word-spacing: 7rem;
+}
+.countdown{
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.input{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    
+}
